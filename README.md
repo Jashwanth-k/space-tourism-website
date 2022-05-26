@@ -10,8 +10,8 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: [](https://github.com/Jashwanth-k/space-tourism-website)
-- Live Site URL: [](https://jashwanth-k.github.io/space-tourism-website/)
+- Solution URL: [solution](https://github.com/Jashwanth-k/space-tourism-website)
+- Live Site URL: [live-site](https://jashwanth-k.github.io/space-tourism-website/)
 
 ## My process
 
