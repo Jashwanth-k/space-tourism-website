@@ -1,0 +1,130 @@
+/* ////////////////////////////// */
+/* landscape tablets (1200px) width and (800px) height */
+@media (max-width: 75em) and (max-height: 50em) {
+  html {
+    font-size: 56.2%;
+  }
+}
+
+@media (max-width: 63em) and (max-height: 50em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* ////////////////////////////// */
+/* potrait tablets (1100px) widht and (1000px) height */
+@media (max-width: 68em) and (min-height: 44em) {
+  html {
+    font-size: 78.5%;
+  }
+
+  .container {
+    width: 70%;
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-columns: 1fr;
+  }
+
+  .navcontainer {
+    padding: 0 5rem 0 5rem;
+  }
+}
+
+/* potrait tablets (680-850)*1000 px */
+@media (min-width: 43rem) and (max-width: 53em) and (min-height: 44em) {
+  html {
+    font-size: 68%;
+  }
+}
+
+/* potrait tablets (480-680 * 700)px */
+@media (min-width: 30em) and (max-width: 42em) and (min-height: 43em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/* ///////////////////////////////// */
+/* Mobiles (464 * 960)px */
+@media (max-width: 29em) and (max-height: 60em) {
+  html {
+    font-size: 63%;
+  }
+
+  .nav {
+    padding: 0;
+  }
+
+  .btn {
+    display: block;
+  }
+
+  .navcontainer {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 70vw;
+    flex-direction: column;
+    padding: 0 0 0 4rem;
+    align-items: flex-start;
+    padding-top: 10rem;
+
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transition: ease-in 0.3s;
+  }
+
+  .navcontainer.hidden {
+    transform: translateX(100%);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .navlink:link,
+  .navlink:visited {
+    font-size: 2rem;
+    height: 3rem;
+    width: auto;
+  }
+
+  .hero {
+    gap: 2rem !important;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .container {
+    width: 90%;
+    height: auto;
+    grid-template-columns: 1fr;
+    margin: 0 auto auto auto;
+  }
+
+  .heading-5 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 29em) and (max-height: 54em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 29em) and (max-height: 48em) {
+  html {
+    font-size: 53%;
+  }
+}
+
+@media (max-width: 29em) and (max-height: 42em) {
+  html {
+    font-size: 46%;
+  }
+}

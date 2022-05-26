@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/shared/logo.svg"
+    />
+    <link rel="stylesheet" href="src/csss/general.css" />
+    <link rel="stylesheet" href="src/csss/style.css" />
+    <link rel="stylesheet" href="src/csss/queries.css" />
+    <script defer type="module" src="controller.js"></script>
+
+    <title>Space tourism website</title>
+  </head>
+  <body>
+    <section class="hero">
+      <nav class="nav">
+        <div class="logo">
+          <img class="logo-svg" alt="logo" src="assets/shared/logo.svg" />
+        </div>
+        <span class="line"></span>
+        <button class="btn open"></button>
+        <ul class="navcontainer hidden">
+          <a href="#" class="navlink nav-active"
+            ><span class="navnbr">00</span>Home</a
+          >
+          <a href="src/htmls/destination.html" class="navlink"
+            ><span class="navnbr">01</span>Destination</a
+          >
+          <a href="src/htmls/crew.html" class="navlink"
+            ><span class="navnbr">02</span>Crew</a
+          >
+          <a href="src/htmls/technology.html" class="navlink"
+            ><span class="navnbr">03</span>Technology</a
+          >
+        </ul>
+      </nav>
+
+      <div class="container">
+        <div class="left-text">
+          <h5 class="heading-5">So, you want to travel to</h5>
+          <h1 class="heading-1">Space</h1>
+          <p class="body-text">
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience! Explore
+          </p>
+        </div>
+        <a href="src/htmls/destination.html" class="right-btn">
+          <h3 class="explore">explore</h3>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>

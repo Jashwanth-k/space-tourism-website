@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --primary: #d0d6f9;
+  --white: #ffffff;
+  --white-2: #cccccc;
+  --black: #0b0d17;
+  --shade-1: #333333;
+  --shade-2: #868e96;
+  --shade-3: #808080;
+  --shade-4: #4c4c4c;
+}
+
+body {
+  color: var(--white);
+}
+
+.hero {
+  position: relative;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.nav {
+  height: 10rem !important;
+  padding-top: 2.8rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  align-self: center;
+  margin: 0 5rem 0 5rem;
+}
+
+.line {
+  align-self: center;
+  height: 2px;
+  width: 100%;
+  background-color: var(--shade-1);
+}
+
+.navcontainer {
+  height: 7.2rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 3.2rem;
+  list-style: none;
+  backdrop-filter: blur(40px);
+  padding: 0 12rem 0 7rem;
+}
+
+.navnbr {
+  color: var(--white);
+  margin-right: 1rem;
+  font-weight: 700;
+  font-size: inherit;
+  letter-spacing: 0.3rem;
+}
+
+/* .navlink {
+  position: relative;
+} */
+
+.navlink:link,
+.navlink:visited {
+  height: 60%;
+  text-decoration: none;
+  color: var(--white-2);
+  font-size: 1.4rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  transition: border-bottom 0.3s;
+}
+
+.navlink:hover,
+.navlink:active {
+  /* box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6); */
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.navlink.nav-active {
+  border-bottom: 2px solid var(--white);
+}
+
+.btn {
+  display: none;
+}
+
+.btn {
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+  height: 3rem;
+  width: 3rem;
+  align-self: center;
+  margin: 0 3rem 0 0;
+  transition: background-image 0.4s;
+  z-index: 100;
+}
+
+.btn.open {
+  background-image: url(../../assets/shared/icon-hamburger.svg);
+}
+
+.btn.close {
+  background-image: url(../../assets/shared/icon-close.svg);
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4 {
+  font-family: 'Bellefair', serif;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.heading-1 {
+  font-size: 11rem;
+}
+
+.heading-2 {
+  font-size: 9rem;
+}
+
+.heading-3 {
+  font-size: 5.6rem;
+}
+
+.heading-4 {
+  font-size: 3.5rem;
+}
+
+.heading-5 {
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: var(--primary);
+  letter-spacing: 0.47rem;
+}
+
+.subheading-1 {
+  font-size: 2.2rem;
+  font-family: 'Bellefair', serif;
+  text-transform: uppercase;
+}
+
+.subheading-2 {
+  font-size: 1.2rem;
+  letter-spacing: 0.27rem;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.body-text {
+  color: var(--primary);
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}

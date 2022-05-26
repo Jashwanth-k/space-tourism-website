@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../assets/shared/logo.svg"
+    />
+    <link rel="stylesheet" href="../csss/general.css" />
+    <link rel="stylesheet" href="../csss/crew.css" />
+    <link rel="stylesheet" href="../csss/queries.css" />
+    <script defer type="module" src="../views/crewView.js"></script>
+
+    <title>Space tourism website</title>
+  </head>
+  <body>
+    <section class="hero">
+      <nav class="nav">
+        <div class="logo">
+          <img class="logo-svg" alt="logo" src="../../assets/shared/logo.svg" />
+        </div>
+        <span class="line"></span>
+        <button class="btn open"></button>
+        <ul class="navcontainer hidden">
+          <a href="../../index.html" class="navlink"
+            ><span class="navnbr">00</span>Home</a
+          >
+          <a href="../htmls/destination.html" class="navlink"
+            ><span class="navnbr">01</span>Destination</a
+          >
+          <a href="#" class="navlink nav-active"
+            ><span class="navnbr">02</span>Crew</a
+          >
+          <a href="../htmls/technology.html" class="navlink"
+            ><span class="navnbr">03</span>Technology</a
+          >
+        </ul>
+      </nav>
+
+      <h5 class="heading-5"><span class="number">02</span>Meet your crew</h5>
+      <div class="container">
+        <div class="left-text">
+          <div>
+            <h3 class="heading-4">Commander</h3>
+            <h2 class="heading-3">Douglas Hurley</h2>
+            <p class="body-text">
+              Douglas Gerald Hurley is an American engineer, former Marine Corps
+              pilot and former NASA astronaut. He launched into space for the
+              third time as commander of Crew Dragon Demo-2.
+            </p>
+          </div>
+          <ul class="slider">
+            <li class="slider-component active" data-name="Douglas Hurley"></li>
+            <li class="slider-component" data-name="Mark Shuttleworth"></li>
+            <li class="slider-component" data-name="Victor Glover"></li>
+            <li class="slider-component" data-name="Anousheh Ansari"></li>
+          </ul>
+        </div>
+
+        <img
+          class="image"
+          src="../../assets/crew/image-douglas-hurley.png"
+          alt="image of the person"
+        />
+      </div>
+    </section>
+  </body>
+</html>

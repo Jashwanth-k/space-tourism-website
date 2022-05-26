@@ -1,0 +1,134 @@
+.hero {
+  gap: 1rem;
+  background-image: url(../../assets/destination/background-destination-desktop.jpg);
+}
+
+.text-line {
+  align-self: center;
+  height: 2px;
+  width: 100%;
+  background-color: var(--shade-1);
+}
+
+.heading-2 {
+  margin-bottom: 1.5rem;
+}
+
+.heading-5 {
+  width: 80%;
+  color: var(--white-2);
+}
+
+.number {
+  color: var(--shade-2);
+  margin-right: 1.2rem;
+}
+
+.image {
+  height: 30rem;
+  width: 30rem;
+  background-size: cover;
+}
+
+.sub-nav {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.sub-nav-links:link,
+.sub-nav-links:visited {
+  font-size: 1.6rem;
+  height: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.27rem;
+  color: var(--primary);
+  text-decoration: none;
+  transition: border-bottom 0.3s;
+}
+
+.sub-nav-links:hover,
+.sub-nav-links:active {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.sub-nav-links.active {
+  border-bottom: 2px solid var(--white);
+}
+
+.right-text {
+  width: 70%;
+}
+
+.body-text {
+  margin-bottom: 3rem;
+}
+
+.text-line {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.subheading-2 {
+  margin-bottom: 1rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* potrait tablets */
+@media (max-width: 68em) and (min-height: 44em) {
+  .hero {
+    background-image: url(../../assets/destination/background-destination-tablet.jpg);
+  }
+
+  .container {
+    gap: 10rem;
+  }
+
+  .right-text {
+    text-align: center;
+  }
+
+  .sub-nav {
+    justify-content: center;
+  }
+
+  .heading-5 {
+    margin-top: 5rem;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 29em) and (max-height: 60em) {
+  .hero {
+    background-image: url(../../assets/destination/background-destination-mobile.jpg);
+  }
+
+  .container {
+    gap: 4rem;
+  }
+
+  .image {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .details {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .right-text {
+    width: inherit;
+    text-align: center;
+  }
+
+  .sub-nav {
+    justify-content: center;
+  }
+}
