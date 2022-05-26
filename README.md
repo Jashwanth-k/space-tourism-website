@@ -10,8 +10,8 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://github.com/Jashwanth-k/space-tourism-website)
+- Live Site URL: [](https://jashwanth-k.github.io/space-tourism-website/)
 
 ## My process
 
@@ -29,5 +29,5 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Jashwanth-k](https://www.frontendmentor.io/profile/Jashwanth-k)
+- Twitter - [@Jashwanth878](https://twitter.com/Jashwanth878?t=oqG0Um0f5eAQKBATPWCJSg&s=09)
