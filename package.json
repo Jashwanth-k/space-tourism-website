@@ -1,0 +1,23 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "space tourism website",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jashwanth-k/space-tourism-website.git"
+  },
+  "author": "Jashwanth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jashwanth-k/space-tourism-website/issues"
+  },
+  "homepage": "https://github.com/Jashwanth-k/space-tourism-website#readme",
+  "dependencies": {
+    "leaflet": "^1.8.0",
+    "parcel": "^2.7.0"
+  }
+}
